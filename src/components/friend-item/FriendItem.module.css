@@ -1,0 +1,28 @@
+.item {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.image {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.name {
+  color: #000;
+  font-size: 24px;
+}
+
+.status {
+  font-size: 18px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

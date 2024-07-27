@@ -1,0 +1,32 @@
+.table,
+.table th,
+.table td {
+  border: 1px solid #000;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+th,
+td {
+  font-size: 18px;
+  padding: 5px 0;
+  width: calc(100% / 3);
+}
+
+th {
+  background-color: #2a2a2a;
+  color: #fff;
+  font-weight: 600;
+}
+
+td {
+  color: #000;
+  text-transform: capitalize;
+}
+
+tr:nth-child(even) td {
+  background-color: #d3d3d3;
+}
